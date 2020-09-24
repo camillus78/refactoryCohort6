@@ -1,6 +1,6 @@
 //Declared a variable name.
 var name;
-//intialised name variable to ozzy zainab.
+//intialised name variable to a string ozzy zainab.
 name = " ozzy zainab";
 
 //Output ozzy zainab in the console.
@@ -10,7 +10,7 @@ console.log("<br/>");
 //Redeclare the name variable.
 
 var name;
-//Reinitialise name variable to ozzy emma otim.
+//Reinitialise name variable to a string ozzy emma otim.
 name = "ozzy emma otim ";
 
 //Output ozzy emma otim in the console
@@ -18,17 +18,17 @@ console.log(name);
 
 //Redeclare the name variable.
 var name;
-//Reinitialise name variable to marrie jacob ozyy.
+//Reinitialise name variable to a string marrie jacob ozyy.
 name = "marrie jacob ozyy";
 //Output marrie jacob ozyy in the console.
 console.log(name);
 //Redeclare the name variable.
 var name;
-//Reinitialise name variable to ozzy diane.
+//Reinitialise name variable to a string ozzy diane.
 name = " ozzy diane";
 //Output ozzy diane in the console.
 console.log(name);
-//Reinitialise name variable to joanita paul ozzy .
+//Reinitialise name variable to a string joanita paul ozzy .
 name = "joanita paul ozzy ";
 //Output joanita paul ozzy in the console.
 console.log(name);
@@ -36,9 +36,9 @@ console.log(name);
 var age;
 //Redeclare the name variable.
 var name;
-//initialise age variable to 50.
+//initialise age variable to a number 50.
 age = 50;
-//Reinitialise name variable to rino monica nicholus
+//Reinitialise name variable to a string rino monica nicholus
 name = "rino monica nicholus";
 /*
 Output My name is rino monica nicholus and I am 50 years old to the webpage.
