@@ -47,7 +47,7 @@ age = 50;
 //The variable name has been initialized and assigned the value rino monica nicholus
 name = "rino monica nicholus";
 /*
-Commenting out command line
+Commenting out a command line 
 */
 document.write("My name is " +name +" "+ "and I am "+age+" "+" years old");
 
