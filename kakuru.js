@@ -50,5 +50,5 @@ var x;
 document.write(x);
 //Variable x has been assigned the value undefined.
 var x = undefined;
-//Function to get the value x.
+//Function to get the value x
 console.log(x);
