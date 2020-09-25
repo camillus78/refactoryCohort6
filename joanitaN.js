@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2e321e401c1eb3c24882bfe3818197976961dae9
 //declaring a var variable called name
 var name;
 
