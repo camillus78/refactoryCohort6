@@ -1,3 +1,10 @@
+/**
+Where are the comments in your code?!
+You should not name your objects with plural names, always use singular
+
+
+*/
+
 function person(age, sex, hairtype, eyes, height, status, occupation){
     this.age=age;
     this.sex=sex;
