@@ -1,3 +1,8 @@
+/**
+Readable code but you are missing comments!
+
+*/
+
 function cloth(color,type,texture,material,make,size){
     this.color=color;
     this.type=type;
