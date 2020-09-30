@@ -1,3 +1,7 @@
+/**
+Descriptive comments are missing.
+*/
+
 function apple(color, height, make, taste, type, use, shape) {
     this.color = color;
     this.height = height;
