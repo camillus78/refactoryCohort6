@@ -1,3 +1,14 @@
+/**
+Readable code, but where are the comments?
+Please use singular for objects names
+
+
+
+
+*/
+
+
+
 
 function television(brand,size,type,color,owner,countryOfOrigin,dateOfMake) {
    
