@@ -1,3 +1,9 @@
+/**
+Where are the comments? and you should follow englishs syntax-
+..capital letters on the begining of the sentence and full stop
+Code is congested not readable
+*/
+
 //create 7 objects and create atleast 2instances of those objects.
 //7properties and one method
 
