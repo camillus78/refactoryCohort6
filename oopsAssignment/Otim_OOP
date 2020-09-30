@@ -142,3 +142,20 @@
  edwin.studentDetails();
  must.schoolRegistered();
  ciu.schoolRegistered();
+ 
+ 
+ /**
+ Nice work but you interchanged the order in your comment
+ 1 identify objects or define objects
+ 2 create the object (instatiate objects with the 'new' word ..the constructor)
+ 3 access the properties or methods of the objects
+ 
+ 
+ */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
