@@ -1,3 +1,13 @@
+?**
+    Please include comments and dont use plural names!
+    
+    
+    */
+
+
+
+
+
 //1. chocolates
 function chocolate(name, type, countryOfOrigin, flavor, manufacturyDate, expiryDate, price) {
     this.name = name;
