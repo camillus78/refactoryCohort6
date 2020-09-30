@@ -1,3 +1,9 @@
+/**
+Nice work! 
+Only that you missed fullstops.
+*/
+
+
 /*
 Clock object. A capital letter used as a way to differentiate
 a constructor function object definition from a regular function definition.
