@@ -1,0 +1,144 @@
+/**
+ * A javascript program to create 7 objects with 7 attributes
+ * Step One create the constructor
+ * Step Two create the object
+ */
+
+ function Shoe(type, brand, manufactureYear, color, size, material, price){
+     this.type = type;
+     this.brand = brand;
+     this.manufactureYear = manufactureYear;
+     this.color = color;
+     this.size = size;
+     this.material = material;
+     this.price = price;
+
+     this.buyNewShoe = function() {
+         console.log("You have bought a "+ this.color + this.type + " shoe of brand "+ this.brand + " manufactured in " + this.manufactureYear + " of size " + this.size + " of material " + this.material + " at price "+ this.price);
+     };
+ }
+
+ let clarks = new Shoe("Clarks", "Calcetto", 2019, "brown", 42, "leather", 500000);
+ let sneakers = new Shoe("Sneaker", "Air Jordan", 2018, "red", 43, "cloth", );
+
+
+ function donut(type, glazed, sweetness, flavor, dateBaked, expiry, weight){
+    this.type = type;
+    this.glazed = glazed;
+    this.sweetness = sweetness;
+    this.flavor = flavor;
+    this.dateBaked = dateBaked;
+    this.expiry = expiry;
+    this.weight = weight;
+
+    this.showDonutDetails = function() {
+        console.log("The Dough Nut is of " + " type " + this.type + " " + this.glazed + " " + this.sweetness + " " + this.flavor + " " + this.dateBaked + " " + this.expiry);
+    }
+ }
+
+ let creamDoughnut = new donut("cream", "glazed", "very sweet", "strawberry", "today", "one week", "1kg");
+ let plainDoughnut = new donut("plain", "not glazed", "salty", "no flavor", "1st-October-2020", "5th-October-2020", "500gms");
+
+
+ function Computer(type, brand, ram, processorType, speed, screenSize, storage){
+     this.type = type;
+     this.brand = brand;
+     this.ram = ram;
+     this.processorType = processorType;
+     this.speed = speed;
+     this.screenSize = screenSize;
+     this.storage = storage;
+
+     this.computerSpecifications = function () {
+         console.log("The computer is of type " + this.type + " brand " + this.brand + " ram size " + this.ram + " processor type " + this.processorType + " process speed of " + this.speed + " screen size " + this.screenSize + " and storage size " + this.storage);
+     }
+ }
+
+ let lenovo = new Computer("Workstation", "P52S", 32, "i7", "3.0GHz", 15.6, 1024);
+ let macbook = new Computer("Laptop", "macbook pro", 16, "i7", 2.5, 14, 512);
+
+
+ function Employee(name, gender, email, contact, salary, address, age){
+     this.name = name;
+     this.gender = gender;
+     this.email = email;
+     this.contact = contact;
+     this.salary = salary;
+     this.address = address;
+     this.age = age;
+
+     this.confirmEmployee = function (){
+         console.log("Employee registered with details " + this.name + " " + this.gender + " " + this.email + " " + this.contact + " " + this.dob + " " + this.address + " " + this.age);
+     }
+ }
+
+ let otim = new Employee("Otim Benjamin Munguriek", "male", "benjaminmunguriek@gmail.com", "0775773283", 50000000, "Kampala", 30);
+ let futo = new Employee("Futo", "male", "futo@domain.com", "0758599404", 3500000, "Kampala", 26);
+
+
+ function teacher(name, gender, subject, contact, email, school, address){
+     this.name = name;
+     this.gender = gender;
+     this.subject = subject;
+     this.contact = contact;
+     this.email = email;
+     this.school = school;
+     this.address = address;
+
+     this.teacherDetails = function(){
+        console.log("Teacher registered with details " + this.name + " " + this.gender + " " + this.subject + " " + this.contact + " " + this.email + " " + this.school + " " + this.address);
+     }
+ }
+
+ let ozzy = new teacher("Ozzy Man", "Male", "Javascript", "077456789", "ozzyman@domain.com", "ciu", "Kampala");
+ let irene = new teacher("Irene", "Female", "HTML & CSS", "0764357899", "irene@domain.com", "ciu", "Kampala");
+
+ function student(name, gender, age, parentName, school, address, parentContact){
+     this.name = name;
+     this.gender = gender;
+     this.age = age;
+     this.parentName = parentName;
+     this.school = school;
+     this.address = address;
+     this.parentContact = parentContact;
+
+     this.studentDetails = function(){
+        console.log("Student registered with details " + this.name + " " + this.gender + " " + this.age + " " + this.parentName + " " + this.parentContact + " " + this.school + " " + this.address);
+     }
+ }
+
+ let mariat = new student("Ndagire Mariat", "Female", 23, "Mommy Marie", "MUST", "Mbarara", "2345678");
+ let edwin = new student("Nahabwe Edwin", "Male", 24, "Onen George", "MUST", "Rukungiri", "67890854" );
+
+
+ function school(name, country, address, rank, website, isMixed, isBoarding){
+     this.name = name;
+     this.country = country;
+     this.address = address;
+     this.rank = rank;
+     this.website = website;
+     this.isMixed = isMixed;
+     this.isBoarding = isBoarding;
+
+     this.schoolRegistered = function () {
+        console.log("School registered with details " + this.name + " " + this.country + " " + this.address + " " + this.rank + " " + this.website + " " + this.isMixed + " " + this.isBoarding);         
+     }
+ }
+
+ let must = new school("Mbarara University of Science and Technology", "Uganda", "Mbarara", 345, "www.must.ac.ug", true, true);
+ let ciu = new school("Clarke International University", "Uganda", "Kampala", 654, "ciu.ac.ug", true, false);
+
+ clarks.buyNewShoe();
+ sneakers.buyNewShoe();
+ creamDoughnut.showDonutDetails();
+ plainDoughnut.showDonutDetails();
+ lenovo.computerSpecifications();
+ macbook.computerSpecifications();
+ otim.confirmEmployee();
+ futo.confirmEmployee();
+ ozzy.teacherDetails();
+ irene.teacherDetails();
+ mariat.studentDetails();
+ edwin.studentDetails();
+ must.schoolRegistered();
+ ciu.schoolRegistered();
