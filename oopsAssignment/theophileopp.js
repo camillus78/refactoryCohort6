@@ -1,3 +1,8 @@
+/**
+You miss understood the assignment, i wanted you to use ..this..new..keywords.
+
+*/
+
 // First object
 var bicycle ={
     color: 'White',
