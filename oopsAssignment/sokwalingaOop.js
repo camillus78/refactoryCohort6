@@ -1,3 +1,8 @@
+/**
+Nice work , may be some comments on instatiating is needed.
+*/
+
+
 //My first object yamahaMotorcycle and it is of class Motorcycle.
 function yamahaMotorcycle(model, yearOfMake, manufacturer, power, ignition, transmission, engineCapacity) {
     this.model = model;
