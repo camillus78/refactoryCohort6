@@ -1,3 +1,9 @@
+/**
+Nice work, but you missed full stop at the end of the comments!
+
+*/
+
+
 // Create 7 objects and initialize at least two 
 // Instances using the constructor new
 //Each should have at least 7 properties
