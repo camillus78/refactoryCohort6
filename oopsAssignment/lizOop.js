@@ -3,6 +3,19 @@
 // Do not use the example of cows, houses, cars & dogs as they were already used in class
 // Submission: Name your file as 'nameOop.js' & push to CohortSIX project repo on GitHub
 // Due: 9 pm, Wed 30th Sep
+/**
+Readable work, buy you would have paraphrased you comments, to reflect what your code is doing
+
+
+
+
+
+
+*/
+
+
+
+
 
 // Object 1:
  function book (title,author,genre,pages,publishingHouse,datePublished,country) {
