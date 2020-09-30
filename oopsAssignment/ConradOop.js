@@ -1,3 +1,13 @@
+/**
+You miss intepreted the assignment. i wanted you to used the 'this'.....
+ key word with a function as an object, and the 'new ' keyword on instantiating objects
+ 
+ */
+
+
+
+
+
 // create/identify seven objects with at least 7 properties and one method and initialise at least two instances using the constructor new.
 //Object1.
 var ball = {
