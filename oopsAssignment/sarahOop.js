@@ -1,3 +1,8 @@
+/**
+Readable code, but fewer comments, may be you would have paraphrased the below comment
+
+*/
+
 //Identify 7 objects and initialize atleast 2 instancesusing the constructor new
 
 // Oobject one
