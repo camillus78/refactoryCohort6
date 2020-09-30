@@ -1,3 +1,11 @@
+/**
+Emma, where are the comments?!  those are not comments those are mockery text instead of comments,
+please use put love in what you are doing ...Otherwise you can do better..nice work
+
+
+*/
+
+
 // 1
 function country(population_size, nature, flag_colours, food, symbol) {
     this.population_size = population_size;
