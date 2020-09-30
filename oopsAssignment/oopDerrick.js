@@ -1,3 +1,9 @@
+/**
+Readable code but dont use plural for object names, more comments are needed in your code.
+
+*/
+
+
 //Objets Class assignment
 
 //1
