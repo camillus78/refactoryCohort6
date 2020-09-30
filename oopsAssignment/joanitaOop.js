@@ -1,3 +1,8 @@
+/**
+Readable code but fewer comments.. some relevant comments are missing more so on constructor 'new'
+
+*/
+
 //First object
 
 function bird(type, color, size, origin, featherTexture, footType, beakType){
