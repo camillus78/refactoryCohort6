@@ -1,3 +1,9 @@
+/**
+I wanted you to use funtion style with parameters as properties.
+Your code is missing comments.
+
+
+*/
 
 var phone ={
     brand:"Redmi",
