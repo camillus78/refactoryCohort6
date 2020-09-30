@@ -1,3 +1,9 @@
+/**
+You are missing comments. those are not meaningful comments.
+Otherwise Readable code.
+
+*/
+
 function phone (type, manufacture, batterycapacity,owner , size,CPU,Ram){
 this.type=type;
 this.manufacture=manufacture;
