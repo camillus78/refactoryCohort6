@@ -1,3 +1,9 @@
+/**
+Readable code but, you are missing comments in the code it would a perfect work
+
+*/
+
+
 //OBJECT EXERCISE
 function cake(name, flavor, typeOfmix, fillings, toppings, size, bakeTime){
     this.name = name;
