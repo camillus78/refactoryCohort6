@@ -1,3 +1,10 @@
+/**
+this is nice work but you woukd have added more comments mainly where you used the new key word
+(where you instantiated objects)
+
+*/
+
+
 //Object One:- bag
 function bag(make, color, size, type, stripe, zips, rollers){
     this.make = make;
