@@ -1,3 +1,5 @@
+//Object 1:
+
 function shoe(color,brand,size,weight,texture,make){
     this.color=color;
     this.brand=brand;
@@ -17,6 +19,8 @@ var shoe2 = new shoe("white","clarks","45cm","250g","China","cloth")
 
 console.log(shoe1);
     shoe1.type();
+
+//Object 2:    
 
 
 function country(noOftribes,continent,size,population,GDP,currency){
@@ -39,6 +43,8 @@ var country2 = new country(7,"Asia","100sqmiles","7.6m","90B","dollars")
 console.log(country2);
     country2.president();
 
+//Object 3:    
+
 
 function team(color,sponsor,nickname,noOfplayers,location,totalwins){
     this.color=color;
@@ -59,6 +65,8 @@ var team2 = new team("yellow","adidas","red devils",56,"London","Aaron")
 
 console.log(team1);
     team1.coach();
+
+//object 4:    
 
 
 function hotel(location,noofrooms,rating,noofworkers,owner,size){
@@ -81,6 +89,8 @@ var hotel2 = new hotel("Gulu",45,"3star",78,"Isaac","2hectares","private")
 console.log(hotel2);
     hotel2.typeofwifi();
 
+//object 5:    
+
 
 function fridge(color,brand,weight,powerconsumption,make,shape){
     this.color=color;
@@ -102,6 +112,7 @@ var fridge2 = new fridge("brown","hisense","60kg","3kw/hr","China","1.5m")
 console.log(fridge1);
     fridge1.cost();
 
+//Object 6:
 
 function alcohol(volume,name,weight,ingredients,percentage,company){
     this.volume=volume;
@@ -123,6 +134,7 @@ var alcohol2 = new alcohol("5l","Four Cousins","34g","hibiscus","50%","box")
 console.log(alcohol1);
     alcohol1.package();
 
+//Object 7:
 
     function course(duration,fees,noofcourseunit,nooflecturers,time,modeofdelivery){
         this.duration=duration;
@@ -143,3 +155,19 @@ console.log(alcohol1);
     
     console.log(course1);
         course1.eligibility();
+
+
+
+        /**
+        Correction
+        1. Naming objects.
+        2.Commenting on the actions taking place.
+
+        steps taken in accomplishing the task
+          1. I declared the object and assigned it with parameters
+          3. I defined its properties.
+          2. I declared a method within the object.
+          3. I declared 2 instances of the object using var and then used constructor key word new to assigne it with parameters.
+          4. I invoked the object with a dot operator to access the behaivour of a particular instance.
+
+        */
