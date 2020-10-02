@@ -11,7 +11,7 @@ function person(fullname,age,height,weight,bloodtype,eye_color,skin_color){
     this.Skin_color=skin_color;
 // A method play is created to describe behavior of object person.
     this.play=function(){
-        console.log("Loves playing the Guitar");
+    console.log("Loves playing the Guitar");
     } 
 }
 
@@ -22,7 +22,7 @@ var person2=new person("Susan Bako",55,"5.6 ft","70kgs","O","brown","chocolate")
 
 console.log(person1);
 person1.play();
-console.log(person2);
+person2.fullname;
 person2.play();
 
 //define object pen with parameters make,pen_color,height,ink_color,pen_type,price.
@@ -40,7 +40,7 @@ function pen(make,pen_color,height,ink_color,pen_type,price){
         } 
     }
     
-    //Instances of the object pen is created
+    //Instances of the object pen is created.
     var pen1=new pen("bic","black","5cm","black","ballpen",600);
     var pen2=new pen("nice","blue","4.9cm","blue","fountain",10000);
     //Display properties and method of the new instances of object pen.
@@ -76,7 +76,7 @@ function box(length,width,height,volume,perimeter,shape,color){
     console.log(box2);
     box2.carry();
 
-    //Define object tv with parameters make,model,shape,weight,screen_size,screen_color,tv_type
+    //Define object tv with parameters make,model,shape,weight,screen_size,screen_color,tv_type.
 
     function tv(make,model,shape,weight,screen_size,color,tv_type){
         //The properties of object tv are assigned to parameters respectively.
@@ -130,7 +130,7 @@ function bed(material,size,height,length,width,shape,color){
     bed2.sleep();
 
 
-//Define object Books with parameters book_title,author,publisher,publication_date,price,ISDN,pages
+//Define object Books with parameters book_title,author,publisher,publication_date,price,ISDN,pages.
 function book(book_title,author,publisher,publication_date,price,ISDN,pages){
     //The properties of object book are assigned to parameters respectively.
         this.book_title=book_title;
