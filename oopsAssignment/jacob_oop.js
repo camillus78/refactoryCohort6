@@ -90,7 +90,7 @@ var hero2 = new SuperHero('Captain America','Marvel','Indestructible','Empathy',
 
 //TvShows object
 
-function TvShows(name,genre,mainCharacter,seasons,episodeLength,rating,cancelled){
+function TvShow(name,genre,mainCharacter,seasons,episodeLength,rating,cancelled){
 	this.name=name;
 	this.genre=genre;
 	this.mainCharacter=mainCharacter;
@@ -105,8 +105,8 @@ function TvShows(name,genre,mainCharacter,seasons,episodeLength,rating,cancelled
 
 //Instance objects created from the TvShows object
 
-var show1 = new TvShows('24','Action','Kiefer Sutherland',9,'42 minutes','90%',false);
-var show2 = new TvShows('Billions','Thriller','Damian Lewis',5,'42 minutes','90%',false);
+var show1 = new TvShow('24','Action','Kiefer Sutherland',9,'42 minutes','90%',false);
+var show2 = new TvShow('Billions','Thriller','Damian Lewis',5,'42 minutes','90%',false);
 
 
 //Song object
