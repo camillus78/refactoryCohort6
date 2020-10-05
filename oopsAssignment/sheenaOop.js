@@ -5,7 +5,9 @@ Readable code but, you are missing comments in the code it would a perfect work
 
 
 //OBJECT EXERCISE
+//Declaring a function cake with the parameters below.
 function cake(name, flavor, typeOfmix, fillings, toppings, size, bakeTime){
+//Initializing the property of the function with values.
     this.name = name;
     this.flavor = flavor;
     this.typeOfmix = typeOfmix;
@@ -17,9 +19,12 @@ function cake(name, flavor, typeOfmix, fillings, toppings, size, bakeTime){
         console.log("Sheena T multi-store")
     }
 }
+//Using the constructor new to initialize an instantiated object of cake with different parameters.
 var cake1 = new cake("Chocolate Cake","Chocolate", "Brownie mix", "Buttercream", "Chocolate chips","9", "2 hours");
 var cake2 = new cake("Vanilla Icecream Cake", "French Vanilla", "Vanilla mix","Blueberries & Cream", "Syrup","12", "3 hours");
+//Print out the values for cake 1 on the console.
 console.log(cake1.name);
+//Display the function availableAt in the console
 cake1.availableAt();
 
 
