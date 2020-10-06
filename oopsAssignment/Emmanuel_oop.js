@@ -6,7 +6,7 @@ please use put love in what you are doing ...Otherwise you can do better..nice w
 */
 
 
-// 1
+// Create the object country and properties.
 function country(population_size, nature, flag_colours, food, symbol) {
     this.population_size = population_size;
     this.nature = nature;
@@ -18,12 +18,12 @@ function country(population_size, nature, flag_colours, food, symbol) {
     }
 
 }
-
+// Create two instances of the function country- Ghana & Uganda and assing values to the properties
 var Ghana = new country("27.8 million", "not land locked", "red yellow black", "fufu", "crane",)
 var Uganda = new country("42.7 million", "land locked", "red gold green", "matooke", "crane bird")
 Uganda.best_food();
 
-// 2
+//Create the object cat and properties. 
 function cat(breed, Hair, size, behaviour) {
     this.breed = breed;
     this.Hair = Hair;
@@ -34,12 +34,12 @@ function cat(breed, Hair, size, behaviour) {
     }
 
 }
-
+//Create two instances of the object cat- cat1 & cat2 and assign values to the properties.
 var cat1 = new cat("sphynx", "hairless", "medium-sized", "mischivous")
 var cat2 = new cat("American short hair", "hairy", "larger", "very affectionate")
 cat1.eye_color();
 
-// 3
+// Create the object phone and properties 
 function phone(manufacurer_countryname, manaufacture_date, model, security_status, price_type) {
     this.manufacurer_countryname = manufacurer_countryname;
     this.manaufacture_date = manaufacture_date;
@@ -51,13 +51,13 @@ function phone(manufacurer_countryname, manaufacture_date, model, security_statu
     }
 
 }
-
+/// Create two instances of the object phone- iphone and Samsumg and assing values to the properties 
 var iphone = new phone("Apple US", "2019", "iphone 11", "excellent", "very expensive")
 var Samsung = new phone("south korea", "2019", "galaxy A9 pro", "good", "fairly expensive")
 iphone.phone_color();
 
 
-// 4
+//Creat the object castle and properties.
 function castle(location_city, built_by, year_established) {
     this.location_city = location_city;
     this.built_by = built_by;
@@ -67,12 +67,12 @@ function castle(location_city, built_by, year_established) {
     }
 
 }
-
+/// Create two instances of the object castle- cape_coast_castle & elimina & assign values to the properties
 var cape_coast_castle = new castle("cape coast", "Swedes", "1653")
-var Samsung = new castle("elmina", "portugese", "1558")
+var elimina = new castle("elmina", "portugese", "1558")
 cape_coast_castle.tourism_value();
 
-// 5
+// Create the object chicken and properties.
 function chicken(breed, variety, egg_color, egg_size, size, primary_usage) {
     this.breed = breed;
     this.variety = variety;
@@ -86,13 +86,13 @@ function chicken(breed, variety, egg_color, egg_size, size, primary_usage) {
     }
 
 }
-
+/// Create two instances of chicken and assign values to the properties. 
 var type1_chicken = new chicken("Americana", "black", "green", "large", "medium-size", "eggs")
 var type2_chicken = new chicken("Buckeye", "only one variety", "brown", "large", "heavy bodied", "dual")
 type1_chicken.annual_revenue();
 
 
-// 6
+// Create the object marriage and properties. 
 function marriage(type_name, religion, location) {
     this.type_name = type_name;
     this.religion = religion;
@@ -102,12 +102,12 @@ function marriage(type_name, religion, location) {
     }
 
 }
-
+/// Create two instances of marriage and assign properties. 
 var type1_marriage = new marriage("polyandry", "christianity", "canada")
 var type2_marriage = new marriage("polygamy", "islam", "iran")
 type2_marriage.universal_practice();
 
-// 7
+// Create the object song and properties. 
 function song(genre, artist, album_title, year) {
     this.genre = genre;
     this.artist = artist;
@@ -118,7 +118,7 @@ function song(genre, artist, album_title, year) {
     }
 
 }
-
+/// Create two instances of the object song and assign values to the properties.
 var song_1 = new song("pop", "Michael Jackson", "thriller", "1982")
 var song_2 = new song("raggae", "Lucky Dube", "Prisoner", "1989")
 song_1.universal_record();
